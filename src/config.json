@@ -1,0 +1,16 @@
+{
+  "cognito": {
+    "staging": {
+      "REGION": "OUR USER POOL REGION",
+      "USER_POOL_ID": "YOUR USER POOL ID",
+      "APP_CLIENT_ID": "OUR USER POOL CLIENT ID"
+    }
+  },
+  "msal":{
+    "staging" : {
+      "clientId": "OUR AZURE AD APPLICATION CLIENT ID ",
+      "authority": "OUR AZURE AD APPLICATION AUTHORITY URL",
+      "redirectUri": "OUR AZURE AD APPLICATION REDIRECT URI"
+    }
+  }
+}

@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html {
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+  /* width: 100%; */
+  /* background-color: #f7fbff; */
+}
+
+body {
+  font-family: 'Lato', sans-serif !important;
+  background-color: #f2f7f7 !important;
+  text-align: center;
+  height: inherit;
+  width: inherit;
+}
+
+.App {
+  /* background-color: #f7fbff; */
+  height: inherit;
+  /* width: inherit; */
+}
+
+#root {
+  height: inherit;
+  /* width: inherit; */
+}
+
+/* Autor:Rupali
+   Description: Added Css for React super Select filtering in Filteration Part */
+
+.select-container .r-ss-dropdown .r-ss-dropdown-option.r-ss-selected,
+.select-container .r-ss-dropdown .r-ss-dropdown-option.r-ss-selected:focus,
+.select-container
+  .r-ss-dropdown
+  .r-ss-dropdown-option.r-ss-selected::selection {
+  background: #fff;
+}
+.select-container .r-ss-dropdown .r-ss-dropdown-option {
+  margin-left: 0;
+  padding-left: 10px;
+  line-height: 30px;
+  text-align: left;
+  font-size: 13px;
+}
+.select-container .r-ss-selected:before {
+  content: '';
+  display: block;
+  height: 20px;
+  width: 20px;
+  float: right;
+}
+.r-ss-magnifier,
+.r-ss-search-aria-label {
+  display: none;
+}
+.r-ss-option-group-heading {
+  font-size: 11px;
+  color: #848383 !important;
+  height: 33px;
+  line-height: 30px;
+  background-color: #b6cef3 !important;
+  height: 37px;
+  display: block;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.r-ss-dropdown-options {
+  width: 154px;
+  text-align: left;
+  list-style: none;
+  border: 1px solid #ccc;
+  padding: 0;
+  margin-top: 0px;
+  border-radius: 4px;
+  max-height: 205px;
+  scrollbar-width: thin;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.r-ss-open {
+  text-align: left;
+}
+
+.r-ss-search-inner input {
+  height: 30px !important;
+  border-radius: 4px;
+  float: left;
+  max-width: 154px;
+}
+
+.r-ss-option-group-heading .anchorTag {
+  margin-left: 4px;
+  margin-right: 9px;
+}
+
+.fa,
+.fas {
+  margin: 4px;
+}
+
+.r-ss-trigger div {
+  height: 23px;
+  font-size: 14px;
+}
+
+.anchorTagColor {
+  color: #0352cc !important;
+  font-size: 9px;
+}
+/* .MuiExpansionPanel-root {
+  width: 185px !important;
+} */
+.MuiExpansionPanel-root .MuiSvgIcon-root {
+  font-size: 18px;
+  fill: #0352cc !important;
+}
+.r-ss-trigger {
+  color: #0352cc !important;
+  border-bottom: 1px solid #0352cc !important;
+  margin-bottom: 2px;
+  font-size: 14px;
+}
+
+.r-ss-search-clear {
+  position: relative;
+  float: right;
+  margin-top: -23px;
+  height: 17px;
+  width: 20px;
+  margin-right: 5px;
+  background: none;
+  border: 0;
+}
+.r-ss-search-clear::before {
+  content: 'X';
+  color: #848383;
+}
+
+/* .r-ss-search-inner::after{
+    content: 'X';
+    position: relative;
+    float: right;
+    margin-top: -23px;
+    height: 17px;
+    width: 20px;
+    margin-right: 5px;
+  }  */
+
+.MuiTable-root {
+  border: 1px solid #ccc;
+}
+.MTableHeader-header-120 {
+  background-color: #0352cc !important;
+  color: #ffffff !important;
+  border-bottom: 1px solid #ccc !important;
+  border-left: 1px solid #ccc;
+}
+
+.MuiMenu-list li:last-child {
+  display: none;
+}
+.MuiTableCell-alignLeft {
+  border-left: 1px solid #ccc;
+}
+
+.MuiInputAdornment-positionStart {
+  color: #0352cc !important;
+}
+.MuiTableCell-root {
+  width: auto !important;
+}
+
+#LogOut-popover .MuiPaper-root {
+  top: 50px !important;
+  position: absolute;
+  overflow: hidden;
+}
+
+#LogOut-popover .MuiPaper-root .logOutPop {
+  margin-top: 11px !important;
+  width: 160px !important;
+  height: 145px !important;
+}
+.logoutDiv {
+  padding: 10px;
+}
+
+.logout {
+  background-color: #0352cc !important;
+  border: 1px solid #ccc !important;
+  border-radius: 18px !important;
+  color: #fff !important;
+  font-size: 12px !important;
+
+  /* float: right;
+  margin-top: 7px;
+  margin-bottom: 5px; */
+}
+.logName {
+  font-size: 14px !important;
+  color: #0352cc !important;
+  font-weight: bold !important;
+  padding: 3px !important;
+}
+.emailDetails {
+  font-size: 15px !important;
+  height: 23px;
+  margin-top: 10px;
+  font-weight: bold !important;
+  line-height: 3;
+  color: #0352cc;
+  /* margin-left: 10px !important; */
+}
+.emailCss {
+  margin-top: 9px !important;
+}
+.hr {
+  margin-top: 7px !important;
+  /* margin-left: 22px !important; */
+}
+.hr1 {
+  margin-top: 15px !important;
+  /* margin-left: 22px !important; */
+}
+
+.inputDate {
+  border: none !important;
+  border-bottom: 1px solid #0352cc !important;
+}
+
+.dateClass {
+  font-size: 12px !important;
+  color: #0352cc !important;
+  float: left !important;
+  margin-top: 10px !important;
+}
+
+.approvalDateClass .MuiTypography-body1 {
+  color: #0352cc !important;
+  font-size: 12px !important;
+}
+
+.page360font .MuiTab-wrapper {
+  font-size: 12px;
+}
+
+.page360font .swipe360 .titleName {
+  font-size: 14px !important;
+  border-bottom: 1px solid #ccc !important;
+  font-weight: bold !important;
+}
+.tableViewClass .MuiTable-root {
+  border-radius: 5px !important;
+  border-collapse: unset !important;
+}
+
+.tableViewClass .MuiTable-root .MuiTableHead-root .MuiTableCell-head,
+.tableViewClass .MuiTable-root .MuiTableHead-root .MuiTableCell-head {
+  color: #000000 !important;
+  font-weight: 800 !important;
+  font-size: 2vh !important;
+  background-color: #e3f1ff !important;
+  text-align: left;
+  padding: 7px;
+}
+
+.tableViewClass .MuiTable-root .MuiTableRow-root td {
+  text-align: left !important;
+  font-size: 1.5vh !important;
+  padding: 7px;
+  font-weight: 700 !important;
+}
+.tableViewClass .MuiTableCell-alignLeft {
+  border-left: 0 !important;
+}
+
+.manageCardsKey .MuiTypography-body1 {
+  font-size: 11px !important;
+  font-weight: bold !important;
+}
+
+/* .react-swipeable-view-container div {
+  overflow: unset !important;
+}  */
+
+.react-swipeable-view-container div .StudyDetailsroot {
+  overflow-y: scroll !important;
+  max-height: 250px;
+}
+
+/* tr.MuiTableRow-root :nth-of-type(odd) {
+  border-radius: 10px;
+  background-color: 'theme.palette.primary.lightBackground';
+}
+tr.MuiTableRow-root:nth-child(even) {
+  border-radius: 10px;
+  background-color: 'theme.palette.white';
+} */
+
+/* .App .MuiAppBar-root {
+  z-index: 1201 !important;
+  transition: width 195ms cubic-bezier(0.4, 0, 0.6, 1),
+    margin 195ms cubic-bezier(0.4, 0, 0.6, 1) !important;
+  background-color: #ffffff !important;
+} */
+
+.filterPanel .MuiExpansionPanel-root .MuiSvgIcon-root {
+  font-size: 19px !important;
+  fill: #0352cc !important;
+}
+
+.filterPanel .MuiIconButton-edgeEnd {
+  margin-right: -20px !important;
+}
+
+.filterPanel .resetFilter {
+  font-size: 13px;
+  color: #848383;
+}
+
+.filterPanel .activeIn .select-container .r-ss-dropdown .r-ss-dropdown-option {
+  border-bottom: 1px solid #b6cef3 !important;
+  margin: 0px 5px !important;
+}
+#LogOut-popover .MuiPaper-root .arrow:before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: -1;
+  height: 14.14px;
+  width: 14.14px;
+  bottom: -8px;
+  left: 4px;
+  background: transparent;
+  transform: rotate(45deg);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.react-pdf__Page__canvas {
+  width: 100%;
+}
+:root {
+  --amplify-primary-color: #0352cc;
+  --amplify-primary-tint: #0000ff;
+  --amplify-primary-shade: #008000;
+}
+.Login {
+  height: inherit;
+  width: inherit;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: fit-content;
+}
+.logo {
+  min-height: 10vh;
+  min-width: 10vh;
+  margin-left: 33%;
+}
+.LoginHeader {
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  position: fixed;
+  /* top: 10vh; */
+  z-index: 1202;
+  /* bottom: 50vh; */
+  /* right: 45%; */
+  background-color: white;
+  border-radius: 50%;
+}
+
+.LoginFooter {
+  left: 50%;
+  /* top: 50%; */
+  transform: translateX(-50%);
+  display: inline-block;
+  position: fixed;
+  /* top: 10vh; */
+  z-index: 12000;
+  /* bottom: 50vh; */
+  /* right: 45%; */
+  background-color: white;
+}
+
+.react-swipeable-view-container {
+  height: 100%;
+}
+
+.CardTabs {
+  /* background-color: white; */
+  margin: 0;
+}
+.TimelineGridBox {
+  margin-top: -10vh;
+}
+input#username {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: var(--amplify-text-sm);
+  color: var(--color);
+  background-color: var(--background-color);
+  background-image: none;
+  border: var(--border);
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: var(--margin);
+  height: 3.125rem;
+  line-height: 1.1;
+}
+
+.textField {
+  width: '85% !important';
+  border: 2px solid #e3f1ff !important;
+  border-radius: 10px !important;
+  background-color: #f7fbff !important;
+}
+.textField.buttonBox {
+  justify-content: center;
+}
+.textField.MuiInputBase-root {
+  margin: 0.5rem;
+  font-size: 1rem;
+}

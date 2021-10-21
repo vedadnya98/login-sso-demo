@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="86" height="23" viewBox="0 0 86 23">
+  <g id="Group_457" data-name="Group 457" transform="translate(-333.944 -202.015)">
+    <path id="Path_274" data-name="Path 274" d="M5,0H81a5,5,0,0,1,5,5V18a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(333.944 202.015)" fill="#d3f7ea"/>
+    <text id="Download" transform="translate(340.944 218.015)" fill="#6e6e6e" font-size="12" font-family="Lato-Heavy, Lato" font-weight="800"><tspan x="0" y="0">Download</tspan></text>
+    <g id="download-2" data-name="download" transform="translate(404.077 209.444)">
+      <g id="Group_428" data-name="Group 428" transform="translate(1.058)">
+        <g id="Group_427" data-name="Group 427" transform="translate(0)">
+          <path id="Path_266" data-name="Path 266" d="M103.491,4.356l-.451-.487a.356.356,0,0,0-.482-.03l-1.345,1.118V.325A.334.334,0,0,0,100.871,0h-.684a.334.334,0,0,0-.342.325V4.957L98.5,3.839a.356.356,0,0,0-.482.03l-.451.486a.313.313,0,0,0,.031.459L100.3,7.061a.357.357,0,0,0,.451,0l2.7-2.247A.313.313,0,0,0,103.491,4.356Z" transform="translate(-97.482)" fill="#6e6e6e"/>
+        </g>
+      </g>
+      <g id="Group_430" data-name="Group 430" transform="translate(0 8.205)">
+        <g id="Group_429" data-name="Group 429">
+          <path id="Path_267" data-name="Path 267" d="M55.869,416H48.342a.342.342,0,0,0-.342.342v.684a.342.342,0,0,0,.342.342h7.527a.342.342,0,0,0,.342-.342v-.684A.342.342,0,0,0,55.869,416Z" transform="translate(-48 -416)" fill="#6e6e6e"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
